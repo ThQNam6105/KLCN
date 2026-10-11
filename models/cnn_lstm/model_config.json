@@ -1,0 +1,15 @@
+{
+    "model_name": "CNN-LSTM NIDS",
+    "time_steps": 100,
+    "n_features": 78,
+    "best_threshold": 0.4599999999999999,
+    "target_mapping": {
+        "BENIGN": 0,
+        "ATTACK": 1
+    },
+    "random_seed": 42,
+    "training_time_seconds": 107.07,
+    "batch_size": 1024,
+    "optimizer": "Nadam(lr=0.0005, weight_decay=1e-4)",
+    "loss_function": "BinaryFocalCrossentropy(alpha=0.25, gamma=2.0)"
+}

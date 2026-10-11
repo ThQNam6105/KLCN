@@ -1,0 +1,17 @@
+{
+    "model_name": "Pure CNN",
+    "random_seed": 42,
+    "time_steps": 100,
+    "training_time_seconds": 75.43,
+    "best_threshold": 0.4749999999999999,
+    "metrics": {
+        "accuracy": 0.98,
+        "precision": 0.9423,
+        "recall": 0.9408,
+        "f1_score": 0.9415,
+        "macro_f1": 0.9647,
+        "roc_auc": 0.9873,
+        "pr_auc": 0.9757,
+        "fpr": 0.0119
+    }
+}

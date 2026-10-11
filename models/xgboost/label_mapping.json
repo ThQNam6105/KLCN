@@ -1,0 +1,12 @@
+{
+    "binary_map": {
+        "0": {
+            "name": "BENIGN",
+            "description": "Lưu lượng bình thường"
+        },
+        "1": {
+            "name": "ATTACK",
+            "description": "Lưu lượng tấn công"
+        }
+    }
+}
